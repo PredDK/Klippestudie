@@ -24,7 +24,10 @@ Du kan også lægge den på GitHub Pages. Gå til **Settings → Pages**, og væ
 - **Effekter:** 18 effekter, fx zoom-punch, rystelse, glitch, VHS, filmkorn og lyslæk, og 6 overgange mellem klip.
 - **Lyd:** du kan udskifte lydsporet og trække lyden ud af et videoklip. Der er 7 musikstile og 20 lydeffekter, som laves i browseren og er fri til brug.
 - **Filtre og farver:** filtre, lysstyrke, kontrast og mætning, fade ind og ud samt sløret baggrund.
-- **Eksport:** MP4 i 720p, 1080p, 1440p eller 4K.
+- **Video oven på video:** en video kan lægges som et lag oven på en anden (billede-i-billede) med egen lyd, trim, form, kant og animation.
+- **Sikre zoner:** hjælpelinjer for TikTok, Reels og Shorts viser, hvor platformen dækker billedet. Målene er omtrentlige.
+- **Gem projekt:** projektet og filerne gemmes automatisk i browseren og hentes igen, når siden åbnes.
+- **Eksport:** MP4 i 720p, 1080p, 1440p eller 4K. Den hurtige eksport regner videoen ud billede for billede med WebCodecs. Den klassiske eksport i realtid bruges som reserve.
 
 ## Genveje
 
@@ -41,6 +44,6 @@ Du kan også lægge den på GitHub Pages. Gå til **Settings → Pages**, og væ
 
 ## Begrænsninger
 
-- Eksporten optager videoen mens den afspilles, så den tager lige så lang tid som videoen. Fanen skal være åben og synlig imens.
-- Projektet bliver ikke gemt. Eksportér, før du lukker siden.
+- Den hurtige eksport virker med MP4- og MOV-filer, som browseren kan afkode. Ellers bruges den klassiske eksport, som tager lige så lang tid som videoen og kræver, at fanen er åben og synlig. Det samme gælder, hvis et klip med ændret hastighed har lyd på.
+- Projektet gemmes kun i den browser på den computer, hvor det er lavet.
 - Den virker bedst i Chrome og Edge. Nogle iPhone-videoer i HEVC-format kan ikke åbnes i alle browsere.
